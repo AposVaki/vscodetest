@@ -28,6 +28,5 @@ function getRandomBgColor() {
 }
 
 function showBgColor(bgColor) {
-    $("#hex").html().style().color() = bgColor;
-
+    $("#hex").css("color", bgColor);
 }
